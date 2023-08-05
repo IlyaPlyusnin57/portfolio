@@ -1,0 +1,108 @@
+:root {
+  --secondary-color: #8bd1d3;
+  --secondary-color-transparent: #8bd0d300;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2b3a67;
+  color: white;
+  font-family: "Courier New", Courier, monospace, Verdana, sans-serif;
+  font-size: 100%;
+}
+
+.secondary-color {
+  /* color: #66999b; */
+  color: var(--secondary-color);
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  /* border: 1px solid red; */
+}
+
+.nav-item {
+  padding: 0;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+  text-decoration: none;
+  /* text-decoration: solid underline 0.05rem var(--secondary-color-transparent); */
+  border-bottom: 1px solid var(--secondary-color-transparent);
+  font-family: "Courier New", Courier, monospace, Verdana, sans-serif;
+  transition: all 0.3s ease-in;
+}
+
+.nav-item:hover {
+  /* text-decoration-color: var(--secondary-color); */
+  border-bottom-color: var(--secondary-color);
+}
+
+main {
+  padding: 50px;
+}
+
+.main-item {
+  margin: 10px;
+}
+
+.full-name {
+  font-size: 3.5em;
+  font-weight: 400;
+}
+
+.job-title {
+  font-size: 2em;
+}
+
+.section-container {
+}
+
+.section-container h1 {
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.projects-container {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-item {
+  flex-grow: 1;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.project-item h4 {
+  text-align: center;
+  font-weight: 300;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
