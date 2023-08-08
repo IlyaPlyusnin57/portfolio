@@ -87,6 +87,8 @@ main {
   padding: 1rem;
   border: 1px solid white;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-item h4 {
@@ -97,6 +99,13 @@ main {
 
 .project-description {
   margin-bottom: 1rem;
+}
+
+.view-links-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 /* unvisited link */
