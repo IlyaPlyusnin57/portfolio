@@ -17,14 +17,12 @@ body {
 }
 
 .secondary-color {
-  /* color: #66999b; */
   color: var(--secondary-color);
 }
 
 .navbar {
   display: flex;
   justify-content: end;
-  /* border: 1px solid red; */
 }
 
 .nav-item {
@@ -99,17 +97,21 @@ main {
 }
 
 .technology-container {
-  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
 }
 
 .technology {
   font-size: 0.6rem;
-  border: 1px solid white;
+  color: var(--secondary-color);
+  background-color: rgba(45, 212, 191, 0.1);
   padding: 0.3rem 0.6rem;
   border-radius: 1rem;
 }
 
 .view-links-container {
+  margin-top: 1rem;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
