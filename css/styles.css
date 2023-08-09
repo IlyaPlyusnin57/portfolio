@@ -61,9 +61,6 @@ main {
   font-size: 2em;
 }
 
-.section-container {
-}
-
 .section-container h1 {
   text-align: center;
   font-weight: 400;
@@ -99,6 +96,17 @@ main {
 
 .project-description {
   margin-bottom: 1rem;
+}
+
+.technology-container {
+  margin-top: 1rem;
+}
+
+.technology {
+  font-size: 0.6rem;
+  border: 1px solid white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 1rem;
 }
 
 .view-links-container {
