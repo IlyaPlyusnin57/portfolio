@@ -59,20 +59,20 @@ main {
   font-size: 2em;
 }
 
-.section-container h1 {
+section h1 {
   text-align: center;
   font-weight: 400;
   margin-bottom: 1rem;
 }
 
-.projects-container {
+.projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
 
 @media (max-width: 1000px) {
-  .projects-container {
+  .projects {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
   }
